@@ -1,0 +1,161 @@
+/* Colors to Be used: 
+#F1EDEE - hover nav bar
+#171219 - black
+#798086 - border line;
+#E15554 - color red
+*/
+
+/*Define custom fonts*/ 
+
+@font-face{
+    font-family: 'Montserrat'; 
+    src: url('../fonts/montserrat/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:'Quicksand'; 
+    src: url('../fonts/Quicksand/Quicksand-VariableFont_wght.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal; 
+}
+
+body,html{
+    margin: 0px; 
+    padding:0px;
+    font-family: 'Montserrat', serif;
+}
+
+#logo{
+    text-align: center; 
+    padding:1%;
+}
+
+#pic{
+    margin:auto;
+    width: 100px;
+    display:block;
+}
+
+
+#menu{
+    font-family:'Quicksand', serif;
+    padding-left: 7%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    text-align: center;
+    background-color:white;
+}
+
+#menu a{
+    font-size: 17px; 
+    color:black; 
+    text-align:center; 
+    width: 120px;
+    padding: 20px; 
+    display:inline-block;
+    text-decoration: none; 
+    margin-bottom: 0px;
+}
+
+#menu a:hover{
+    background-color:#F1EDEE;
+    border-radius: 5%;
+}
+
+
+header{
+    text-align:center;
+    padding-top:100px;   
+    margin-top: 0px;
+    background-image: url(../images/pic01.jpg);
+    height: 345px; 
+    background-size:cover;
+    background-position:center;
+}
+
+#banner{
+    background-color:#171219;
+    height: 150px; 
+    width: 400px; 
+    text-align:center;
+    display:inline-block;
+    border-radius:10px;
+}
+
+#banner span{
+    line-height:150px;
+}
+
+#body{
+    background-image:linear-gradient(to bottom, white,#EEEEEE);
+ 
+}
+
+div .text{
+    font-size: 30px;
+    vertical-align: middle;
+    color:white;
+    display:inline-block;
+    font-weight: bold;
+}
+
+#content{
+    margin-left: 10%;
+    margin-right:10%;
+    width: 80%;
+    padding: 20px; 
+    padding-top: 50px;
+}
+
+#content p{
+    text-align: justify; 
+    line-height: 1.5; 
+}
+
+#footer{
+    color: #fff; 
+    padding: 30px; 
+    text-align: center;
+    background-color: #171219;
+    height: 150px;
+}
+
+#links{
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    padding-bottom: 1%;
+}
+
+#links img:hover{
+    width:35px;
+}
+
+
+#links img{
+    margin-right: 2px;
+    width:30px;
+}
+#topper{
+    position:fixed; 
+    right: 20px; 
+    bottom: 20px; 
+    display:inline-block; 
+    background-color: #DC8F8E; 
+    font-weight: bold; 
+    color: white; 
+    width: 40px; 
+    height: 40px; 
+    border-radius: 5px; 
+    /* border: solid 1px #f00;  */
+    text-align: center; 
+    font-size: 30px;
+}
+#topper:hover{
+    cursor: pointer;
+    background-color: #E15554; 
+}
+
+
