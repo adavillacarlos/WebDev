@@ -95,9 +95,9 @@ div .text{
     line-height: 1.5; 
 }
 
-
 #personal-info{
-    padding:0px;
+    display:flex;
+    margin-bottom: 2%;
 }
 
 #profile{
@@ -108,7 +108,7 @@ div .text{
     overflow: hidden;
     display: inline-block;
     box-shadow: 5px 5px 4px 0px rgba(212,212,212,1);
-    height: 530px;
+    height: 550px;
     margin-right: 20px;
 }
 
@@ -116,18 +116,18 @@ div .text{
     height: inherit;
     width: inherit;
     border-radius: 5px;
+    display:flex;
 }
 
 #contain-table{
+    flex: 1;
     background-color: #fff;
     overflow: hidden;
     display: inline-block;
     vertical-align: top;
-    margin-right:0px;
-    padding:20px;
-    padding-bottom: 3px;
-    width:58%;
+    padding: 40px;
     border-radius: 10px;
+    padding-bottom: 0px;
 }
 
 .title{
@@ -175,7 +175,6 @@ td{
     border-radius: 10px;
     padding: 40px;
     margin-top:20px;
-    width:93%;
     margin-bottom: 2%;
  
 }
@@ -227,20 +226,6 @@ td{
     padding: 5px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* FOOTER */
 
 #footer{
@@ -285,7 +270,3 @@ td{
     cursor: pointer;
     background-color: #E15554; 
 }
-
-
-
-
