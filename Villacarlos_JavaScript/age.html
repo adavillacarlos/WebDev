@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="icon" href="resources/images/logo.png">
+
+    <title>JavaScript</title>
+</head>
+<body onload="ageFun()">
+    <a name="topmost"></a>   
+
+    <div id="body">
+        <div id="logo">
+            <img src="resources/images/logo.png" id="pic">
+            <span>morning tea</span>
+        </div>
+        <!--NAVIGATION-->
+        <nav class="nav" id="nav-menu">
+            <ul class="site-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="image.html" >Image</a></li>
+                <li><a href="age.html" >Age</a></li>
+                <li><a href="color.html">Color</a></li>
+                <li><a href="analysis.html">Psychoanalysis</a></li>
+            </ul>
+        </nav>   
+         <div id = "content">
+             <div class = "content-box">
+                <span class = "age-title">Calculate Age</span>
+                <div class = "age-input">
+                    <span class="label-input1">NAME</span>
+                    <span id="name-contain" class="ans-contain">YOUR Name</span>
+                </div>
+                <div class = "age-input">
+                    <span class="label-input1">BIRTH YEAR</span>
+                    <span id="year-contain" class="ans-contain">YOUR YEAR</span>
+                </div>
+                <div class = "age-input">
+                    <span class="label-input1">AGE</span>
+                    <span id="age-contain" class="ans-contain">YOUR AGE</span>
+                </div>
+                <div class="contain-age-btn">
+                    <button class="btn-age" onclick="ageFun()">
+                        <span>Calculate again</span>
+                    </button>
+                </div>
+             </div>
+        </div>
+    </div>
+    <div id="footer">
+        <p>&copy; Ada Pauline. All Rights Reserved  2020-2021 </p>
+	</div>
+    <a href='#topmost'>
+         <span id='topper'>&#11165;</span>
+    </a>
+
+    <script src="resources/js/main.js" type="text/javaScript"></script>
+</body>
+</html>
