@@ -1,0 +1,11 @@
+Script for page 5: 
+Ask: How are you feeling today?
+	Ans 1: I'm feeling down
+Ask: Are you feeling down because of your job? 
+	Ans 2: Ok
+Ask: What is the reason?
+	Ans 3: because of my boss
+Ask: What did your boss do?
+	Ans 4: My boss overworked me 
+Ask: Have you tried talking to you boss?
+	Ans 5: Ok

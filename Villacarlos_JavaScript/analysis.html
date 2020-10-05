@@ -8,7 +8,7 @@
 
     <title>JavaScript</title>
 </head>
-<body>
+<body id ="whole">
     <a name="topmost"></a>   
 
 
@@ -18,19 +18,23 @@
             <img src="resources/images/logo.png" id="pic">
             <span>morning tea</span>
         </div>
-        <!--NAVIGATION-->
-        <nav class="nav" id="nav-menu">
-            <ul class="site-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="image.html" >Image</a></li>
-                <li><a href="age.html" >Age</a></li>
-                <li><a href="color.html">Color</a></li>
-                <li><a href="analysis.html">Psychoanalysis</a></li>
-            </ul>
+           <!--NAVIGATION-->
+           <nav class="nav" id="nav-menu">
+            <a href="index.html" id="a-menu">Home</a>
+            <a href="image.html" id="a-menu" >Image</a>
+            <a href="age.html"  id="a-menu">Age</a>
+            <a href="color.html"  id="a-menu">Color</a>
+            <a href="analysis.html"  id="a-menu">Psychoanalysis</a>
         </nav>   
-         <div id = "content">
-            <h2 id="welcome">WELCOME TO MY <br> VERY SPECIAL PAGE</h2>
+        <!-- CONTENT  -->
+        <div id = "content">
+            <div class="contain-analysis-btn">
+                <button class="btn-analysis" onclick="analysis()">
+                    <span>Talk to an AI</span>
+                </button>
+            </div>
         </div>
+        
     </div>
     
     <div id="footer">
